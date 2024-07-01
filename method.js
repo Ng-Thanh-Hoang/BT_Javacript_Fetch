@@ -67,9 +67,6 @@ export function resetForm() {
     dom("#diemLy").value = "";
     dom("#diemHoa").value = "";
     dom("#diemRenLuyen").value = "";
-
-    dom("#taiKhoanNV").disabled = false;
-    dom("#btnThemNV").disabled = false;
 }
 
 function dom(selector) {
